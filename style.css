@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(188, 110, 81);
+}
+div {
+  border: 2px solid rgb(247, 241, 241);
+  border-radius: 8px;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+  box-shadow: 5px 5px 5px 5px rgb(238, 133, 95);
+}
+label {
+  display: inline-block;
+  width: 100px;
+  color: blanchedalmond;
+}
+input {
+  display: inline-block;
+  width: 100px;
+  border: 2px;
+  border-radius: 5px;
+}
+h3 {
+  text-align: center;
+  color: wheat;
+}
+#save:hover {
+  cursor: pointer;
+  background-color: coral;
+  color: wheat;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: coral;
+    color: wheat;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 900;
+}
